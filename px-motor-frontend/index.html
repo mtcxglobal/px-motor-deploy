@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PX Motor</title>
+
+    <!-- Tailwind CDN (Lokal geliştirme için en sorunsuz çözüm) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind özel konfigürasyon (istersen ekleriz, şimdilik sade dursun) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+
+    <!-- Opsiyonel: Google font vb eklemek istersen buraya gelir -->
+  </head>
+
+  <body class="bg-slate-950 text-slate-100">
+    <div id="root"></div>
+
+    <!-- React/Vite giriş noktası -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
